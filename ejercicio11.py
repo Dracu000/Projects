@@ -1,0 +1,7 @@
+dinero_ahorro = int(input("Introduce la cantidad de dinero que ahorras cada año: "))
+primer_año = dinero_ahorro * (1 + 0.04)
+segundo_año = primer_año * (1 + 0.04)
+tercer_año = segundo_año * (1 + 0.04)
+print("El dinero ahorrado el primer año es:", f"{primer_año:.2f}")
+print("El dinero ahorrado el segundo año es:", f"{segundo_año:.2f}")
+print("El dinero ahorrado el tercer año es:", f"{tercer_año:.2f}")
